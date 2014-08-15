@@ -24,7 +24,7 @@ h5 {
 .app {
     height: 100%;
     width: auto;
-    background: url(http://yashrajsingh.github.io/ideaPad/images/app.png) no-repeat center center;
+    background: url(images/app.png) no-repeat center center;
     background-size: contain;
     display: none;
 }

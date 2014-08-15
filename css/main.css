@@ -1,0 +1,114 @@
+body {
+    background-color: rgba(46, 57, 70, 0.88);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    display: -webkit-flex;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(bottom, rgba(46, 57, 70, 0.88) 50%, rgba(38, 50, 63, 0.96) 50%);
+    background-image: -o-linear-gradient(bottom, rgba(46, 57, 70, 0.88) 50%, rgba(38, 50, 63, 0.96) 50%);
+    background-image: -moz-linear-gradient(bottom, rgba(46, 57, 70, 0.88) 50%, rgba(38, 50, 63, 0.96) 50%);
+    background-image: -webkit-linear-gradient(bottom, rgba(46, 57, 70, 0.88) 50%, rgba(38, 50, 63, 0.96) 50%);
+    background-image: -ms-linear-gradient(bottom, rgba(46, 57, 70, 0.88) 50%, rgba(38, 50, 63, 0.96) 50%);
+}
+
+h1 {
+    color: white;
+}
+
+h5 {
+    color: #DDD;
+}
+
+.app {
+    height: 100%;
+    width: auto;
+    background:url(/images/app.png) no-repeat center center;
+    background-size: contain;
+    display: none;
+}
+
+.logo {
+    height: 64px;
+    margin-left:-12px;
+    width: auto;
+}
+
+.move {
+    height: 50%;
+    width: auto;
+    display: block;
+}
+
+.center {
+    z-index: auto;
+    position: absolute;
+    text-align: center;
+    top: 50;
+}
+
+.col-md-4, .col-md-8 {
+    float:none;
+    vertical-align:middle;
+}
+
+.desc {
+    color: darkgray;
+    text-align: center;
+}
+
+.footer a, .footer{
+    font-size: 11px;
+    color: #DDD;
+}
+
+.footer ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+
+.top {
+    background: #2E3946;
+    padding: 20px 20px 20px 10px;
+}
+
+.text {
+    margin-left:50px;
+    text-decoration-style: dashed;
+}
+
+.tos {
+    padding: 10px 10px 10px 10px;
+}
+
+@media (min-width: 988px) {
+    .col-md-4, .col-md-8 {
+        float:none;
+        display:inline-block;
+        vertical-align:middle;
+        margin-right:-4px;
+    }
+    .app {
+        height: 100%;
+        width: auto;
+        background:url(/images/app.png) no-repeat center center;
+        background-size: 150%;
+        display: block;
+    }
+    .desc {
+        color: darkgray;
+        text-align: left;
+    }
+    .move {
+        display: none;
+    }
+    .tos {
+        padding: 10px 100px 100px 100px;
+    }
+    .top {
+        background: #2E3946;
+        padding: 20px 20px 20px 100px;
+    }
+}

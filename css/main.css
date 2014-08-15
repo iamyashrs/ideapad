@@ -5,15 +5,6 @@ body {
     -webkit-font-smoothing: antialiased;
     display: -webkit-flex;
     -moz-osx-font-smoothing: grayscale;
-}
-
-body_main {
-    background-color: rgba(46, 57, 70, 0.88);
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    display: -webkit-flex;
-    -moz-osx-font-smoothing: grayscale;
     background-image: linear-gradient(bottom, rgba(46, 57, 70, 0.88) 50%, rgba(38, 50, 63, 0.96) 50%);
     background-image: -o-linear-gradient(bottom, rgba(46, 57, 70, 0.88) 50%, rgba(38, 50, 63, 0.96) 50%);
     background-image: -moz-linear-gradient(bottom, rgba(46, 57, 70, 0.88) 50%, rgba(38, 50, 63, 0.96) 50%);
@@ -33,7 +24,7 @@ h5 {
 .app {
     height: 100%;
     width: auto;
-    background: url(images/app.png) no-repeat center center;
+    background: url(http://yashrajsingh.github.io/ideaPad/images/app.png) no-repeat center center;
     background-size: contain;
     display: none;
 }

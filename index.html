@@ -66,7 +66,7 @@
                     
                     <iframe name="hidden_iframe" id="hidden_iframe"
                     style="display:none;" onload="if(submitted)
-                    {window.location='/thankyou.html';}"></iframe>
+                    {window.location='thankyou.html';}"></iframe>
                         
                     <form action="https://docs.google.com/forms/d/1QWj7wnkjSEl8QazL1WbCxqeC0z3rnhPTVpQkWp4Ku0I/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;" class="form-inline" role="form">
                       <div class="form-group">
@@ -127,13 +127,13 @@
                     dataType: "xml",
                     statusCode: {
                         0: function () {
-                            window.location.replace("/thankyou.html");
+                            window.location.replace("thankyou.html");
                         },
                         200: function () {
-                            window.location.replace("/thankyou.html");
+                            window.location.replace("thankyou.html");
                         },
                         201: function () {
-                            window.location.replace("/thankyou.html");
+                            window.location.replace("thankyou.html");
                         }
                     }
                 });

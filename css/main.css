@@ -24,7 +24,7 @@ h5 {
 .app {
     height: 100%;
     width: auto;
-    background: url(app.png) no-repeat center center;
+    background: url(../app.png) no-repeat center center;
     background-size: contain;
     display: none;
 }

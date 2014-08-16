@@ -50,6 +50,7 @@ h5 {
 
 .col-md-4, .col-md-8 {
     float:none;
+    padding: 20px;
     vertical-align:middle;
 }
 

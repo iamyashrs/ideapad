@@ -85,6 +85,10 @@ h5 {
     padding: 10px 10px 10px 10px;
 }
 
+.share {
+    display: none;   
+}
+
 @media (min-width: 988px) {
     .col-md-4, .col-md-8 {
         float:none;

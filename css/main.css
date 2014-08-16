@@ -94,7 +94,7 @@ h5 {
     .app {
         height: 100%;
         width: auto;
-        background:url(/images/app.png) no-repeat center center;
+        background: url('../images/app.png') no-repeat center center;
         background-size: 150%;
         display: block;
     }

@@ -117,4 +117,7 @@ h5 {
         background: #2E3946;
         padding: 20px 20px 20px 100px;
     }
+    .share {
+        display: inline;   
+    }
 }

@@ -1,0 +1,47 @@
+<a href="https://play.google.com/store/apps/details?id=com.ideapad">
+  <img alt="Android app on Google Play"
+       src="/images/brand/en_app_rgb_wo_45.png" />
+</a>
+
+
+
+
+                    <h4 style="color:white;">Coming Soon..</h4>
+                    
+                    <script type="text/javascript">var submitted=false;</script>
+                    
+                    <iframe name="hidden_iframe" id="hidden_iframe"
+                    style="display:none;" onload="if(submitted)
+                    {window.location='thankyou.html';}"></iframe>
+                        
+                    <form action="https://docs.google.com/forms/d/1QWj7wnkjSEl8QazL1WbCxqeC0z3rnhPTVpQkWp4Ku0I/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;" class="form-inline" role="form">
+                      <div class="form-group">
+                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                          <input type="email" class="form-control" name="entry.639894026" value="" class="ss-q-short" id="entry_639894026" dir="auto" aria-label="Email  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address" placeholder="Enter email" style="border:none; border-radius:0;">
+                      </div>
+                      <button type="submit" class="btn btn-default" style="color: white;background-color: #1CAF00;border: 1px solid;border-radius: 0;" onclick="postContactToGoogle()">Notify me</button>
+                    </form>
+                    
+                    
+    <script>
+        function postContactToGoogle() {
+            var email = $('#Email').val();
+                $.ajax({
+                    url: "https://docs.google.com/forms/d/1QWj7wnkjSEl8QazL1WbCxqeC0z3rnhPTVpQkWp4Ku0I/formResponse",
+                    data: { "entry_639894026": email },
+                    type: "POST",
+                    dataType: "xml",
+                    statusCode: {
+                        0: function () {
+                            window.location.replace("thankyou.html");
+                        },
+                        200: function () {
+                            window.location.replace("thankyou.html");
+                        },
+                        201: function () {
+                            window.location.replace("thankyou.html");
+                        }
+                    }
+                });
+        }
+    </script>
